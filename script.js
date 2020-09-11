@@ -278,18 +278,19 @@
   //n= prompt ("enter a name")
   
 
-  let str = prompt ("enter a name")
-  let v =str.length
+  //let str = prompt ("enter a name")
+  //let v =str.length
+  //let flag = true
 
-  while (true) {
+  //while (flag) {
 
-if (v > 15) {
-console.log (" your name is too long");
-continute
-}
-  console.log (" good username");
-  break;
-}
+//if (v < 15) {
+//console.log (" good username");
+//flag =false;
+//} else {
+  //v = prompt (" your name is too long. Please try again");
+//}
+  //}
 
 //let n;
 //while (true) {
@@ -299,6 +300,276 @@ continute
 //}
 //}
 //console.log (n)
+// let max_size = 0
+// const arr = [3,5,6,1,8,9,2]
+// for (let i = 0; i < arr.length; i++) {
+//   if (max_size < arr [i])
+//    max_size = arr [i]
+// }
+
+// console.log (max_size)
+
+// let person = {
+//     name: "Nam",
+//     title: a,
+//     rate: 8.7,
+//     age: 19,
+//     favs: ['coffe', 'code', 'basketball']
+//   }
+// let favs= person.favs;  
+//     console.log(person)
+//     console.log (favs)
+// for (let i = 0; i< favs.length; i++){
+//   console.log (favs[i]);
+// }
+// favs.push ("nitro5")
+// console.log(favs);
+// console.log (person);
+  // console.log (movie)
+  // console.log (movie.title)
+  // let answer = "";
+  // while(true){ 
+  //     answer = prompt("What do you want to know?");
+  //     if(answer == 'title'){
+  //         alert(movie.title);
+  //     }
+  //     else if(answer == 'name'){
+  //         alert(movie.name);
+  //     }
+  //     else if(answer == 'rate'){
+  //         alert(movie.rate);
+  //     }else{
+  //         alert(answer + ' does not exist in our data');
+  //     }
+  // }
+  
+ // Create
+  // movie.rate = 8.7
+  // movie.rate += 0.5
+  // let x = prompt("What do you want to update?");
+  // if(x == 'title' || x == 'year' || x == 'rate'){
+      // let a = prompt("What is the update?");
+  //     console.log(a);
+  //     console.log (movie)
+  // }else{
+  //     alert(x + " does not exist in our data, we will add new");
+  //     movie[x] = prompt("Enter new data");
+  //     console.log(movie);
+  // }
+  // console.log (person.name)
+  // person.name= "nguyen phuong nam"
+  // console.log (person.name)
+  // console.log (person['age']);
+  // person['age']= 19;
+  // console.log (person['age'])
+  // person.age ++
+  // console.log (person)
+
+  // console.log (person);
+  // person.location = "tp Hcm";
+  // person.status = "single";
+  // console.log (person)
+
+  // delete person.age;
+  // console.log (person)
+  // let personArr = [];
+  // let person1 = {
+  //   name:"MINH",
+  //   age: 19,
+  // }
+  // let person2 = {
+  //     name: "AN",
+  //     age: 18,
+  // }
+  // // console.log (personArr);
+  // personArr.push (person1);
+  // personArr.push (person2);
+  // // console.log (personArr);
+
+  // // console.log (personArr[1]);
+  // // let p = personArr [1]
+  // // console.log(p);
+  // // console.log (p.name);
+
+  // // console.log(personArr[0].name)
+
+  // for (let i = 0; i < personArr.length; i ++) {
+  //   let p = personArr[i];
+  //   console.log (p);
+
+  // }
+
+//   let movie = {
+//   name: "Nam",
+//   title: "fefefe",
+//   rate: 8.4, 
+// }
+
+// console.log (movie)
+// console.log (movie.title)
+// let answer = "";
+// while(true){ 
+//     answer = prompt("What do you want to know?");
+//     if(answer == 'title'){
+//         alert(movie.title);
+//     }
+//     else if(answer == 'name'){
+//         alert(movie.name);
+//     }
+//     else if(answer == 'rate'){
+//         alert(movie.rate);
+//     }else{
+//         alert(answer + ' does not exist in our data');
+//     }
+// }
+
+// Create
+// movie.rate = 8.7;
+// movie.rate += 0.5;
+
+// let answer = prompt("What do you want to update?");
+// if(answer == 'title' || answer == 'year' || answer == 'rate') {
+//   movie.title= prompt ("what is the update")
+//     console.log(movie);
+// } else {
+//     alert(answer + " does not exist in our data, we will add new item");
+//     movie.answer  = prompt ("enter the new data")
+//         console.log(movie);
+// }
+
+//question11
+
+// let movie = {
+//     title: " up",
+//     year: 2002,
+//     rate: 9.0,
+//     casts: ['tony', 'minh', 'an']
+// };
+// console.log (movie)
+
+// let cast= movie.casts
+// console.log (cast);
+// for (let i= 0; i < cast.length; i++) {
+//   console.log (cast[i])
+// }
+// cast.push ("fffe");
+// console.log (movie)
+// let movie2 = {
+//     title: "aquaman",
+//     year: 2020,  
+//     rate: 8.0
+// }
+// let movie3 = {
+//     title: "batman",
+//     year: 2021,
+//     rate: 10
+// }
 
 
+// let movieArr = []
+//     movieArr.push(movie1);
+//     movieArr.push(movie2);
+//     movieArr.push(movie3);
 
+// // let p = movieArr [2];
+// // console.log (p.title)
+// for (let i =0; i <movieArr.length; i++){
+//     let p = movieArr[i];
+
+// console.log (p);
+// p.rate+=0.7;
+// console.log (p.rate)
+// }
+
+//question1
+// let product = {
+//   name: "Xiaomi rice cooker",
+//   price: 1700,
+//   brand: "Xiaomi",
+//   color: "white"
+// };
+// let productArr= []
+// productArr.push (product)
+// for (let x in product ) {
+//   console.log (x)
+// }
+
+//1.1 x receive property
+
+// for (let i = 0; i < productArr.length; i++ )
+//     console.log (productArr[i])
+
+//question4
+
+// let dict = {
+//     debug: "The process of figuring out why your program has a certain error and how to fix it",
+//     done: " when your task is complete, the only thing you have to do is to wait for usesers to use it (no additional codes or actions needed",
+//     defect: " the formal word for error",
+//     pm: " the short version of project manager, the person in charge of the final result of a project",
+//     uiux: "Ui means User Interface, UX mean User Experience, are the process to define how your products looks and feels",    
+// }
+
+// alert('Hi there, this is a new dictionary.');
+//  let answer = '';
+//  let definition;
+//  let flag = true;
+//  let flag2 = true;
+//  let answer2 = '';
+//  while(flag)
+//  flag2=true
+//      answer = prompt('Enter a keyword.');
+//      if(dict[answer] == undefined){
+//          dict[answer] = prompt(`We could not find your word: ${answer}, leave your explanation.`);
+//          alert('Done');
+//      }else{
+//          definition = answer;
+//          definition += "\n" + dict[answer];
+//          alert(definition);
+//      }
+//      while(flag2) {
+//            answer2= prompt('Do you want to continue (Y/N)?')
+//          if(answer2 == 'y' || answer2 == 'Y'){
+//              flag2 = false;
+//          }
+//          else if(answer2 == 'n' || answer2 == 'N'){
+//              flag2 = false;
+//              flag = false;
+//          }
+//      }
+  
+// let dict = {
+//     debug: "The process of figuring out why your program has a certain error and how to fix it",
+//     done: " when your task is complete, the only thing you have to do is to wait for usesers to use it (no additional codes or actions needed",
+//     defect: " the formal word for error",
+//     pm: " the short version of project manager, the person in charge of the final result of a project",
+//     uiux: "Ui means User Interface, UX mean User Experience, are the process to define how your products looks and feels",    
+//   }
+//   alert('Hi there, this is a new dictionary.');
+//    let answer = '';
+//    let definition;
+//    let flag = true;
+//    let flag2 = true;
+//    let answer2 = '';
+//    while(flag){
+//        flag2 = true;
+//        answer = prompt('Enter a keyword.');
+//        if(dict[answer] == undefined){
+//            dict[answer] = prompt(`We could not find your word: ${answer}, leave your explanation.`);
+//            alert('Done');
+//        }else{
+//            definition = answer;
+//            definition += "\n" + dict[answer];
+//            alert(definition);
+//        }
+//        while(flag2){
+//            answer2 = prompt('Do you want to continue (Y/N)?')
+//            if(answer2 == 'y' || answer2 == 'Y'){
+//                flag2 = false;
+//            }
+//            else if(answer2 == 'n' || answer2 == 'N'){
+//                flag2 = false;
+//                flag = false;
+//            }
+//        }
+//    };
+//            
