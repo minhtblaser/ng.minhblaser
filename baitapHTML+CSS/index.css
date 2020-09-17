@@ -1,0 +1,37 @@
+h1 {
+  text-align: center;
+  margin: 0;
+  background-color: white;
+  font-size: 100px;
+}
+
+#frist{
+  text-align: center;
+  margin: 0;
+  background-color: white;
+  font-size: 300px;
+  font-family: 'Times New Roman', Times, serif
+}
+
+img {
+ margin:  40px 20px auto ;
+}
+
+#second {
+ font-size: small;
+}
+
+.poet {
+  margin: 10px 30px auto 
+}
+
+.First {
+  margin: 10px 30px auto 
+}
+.second {
+  margin: 10px 30px auto 
+}
+.third{
+  margin: 10px 30px auto 
+}
+}

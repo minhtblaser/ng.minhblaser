@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    margin: 0;
+    color: red;
+  }
+p {
+      background-color: royalblue;
+  }
+
+#hellofans {
+      text-decoration: underline;
+  }
+.hello {
+      font-style: italic;
+  }
+.white {
+    color: brown
+}
+[href] {
+    font-style: 100px;
+}
+[type="password"] {
+    border: solid red 2px;
+}
+[type="username"] {
+    border: solid orange 2px;
+}
+
+nav a {
+    text-decoration: underline black;
+}
+
+button:active {
+    background-color: red;
+}
+
+input:focus{
+    border: green solid 100px;
+}
+
+img:hover {
+    border: gray solid 2px;
+}

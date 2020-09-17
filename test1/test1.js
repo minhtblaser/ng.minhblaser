@@ -85,10 +85,89 @@
 //question5
 
 
-let ngay= Number (prompt ("nhap ngay"))
-let thang= Number (prompt ("nhap thang"))
-let nam= Number (prompt("nhap nam"))
-
-if (0 < ngay < 32 && 0< thang <12) {
-    alert ("ngay: " + ngay + "/" + thang + "/" + nam + " hople")
+let day= Number (prompt ("nhap ngay"))
+let month= Number (prompt ("nhap thang"))
+let year= Number (prompt("nhap nam"))
+let flag = true
+// let a= [31,[28,29], 31,30,31,30,31,31,30,31,30,31]
+// let count = 0
+// let flag =true
+// kt daymonth co hop le khong
+if ( day> 0 && day<=31 && month > 0 && month <= 12 && year >1) {
+    if ( day> 0 && day<=31) {
+        if (month <=7  && month !=2) {
+            if (month%2!=0) {
+                // console.log ("thang"+ month + " co 31 day") 
+                alert ("day: "+ day + "/" +month + "/" + year + " hop le")
+            }
+        }    
+if ( day> 0 && day<=30) {    
+        if (month <=7  && month !=2) {           
+            if (month %2 ==0 && month !=2) {
+            // console.log ("thang"+ month +" co 30 day")
+            alert ("day: "+ day + "/" +month + "/" + year + " hop le")
+        }
+    }
+if ( day> 0 && day<=31) {
+        if (month >=8) {
+            if (month%2==0) {
+            // console.log ("thang"+ month + " co 31 day") 
+            alert ("day: "+ day + "/" +month + "/" + year + " hop le")
+        }
+    }
+ if ( day> 0 && day<=30) {
+        if (month >=8) {
+            if (month%2 !=0) {
+            // console.log ("thang"+ month + " co 30 day")
+            alert ("day: "+ day + "/" +month + "/" + year + " hop le")
+        }
+    }
+    if (year%400 ==0 || (year%4==0 && year % 100 !=0 && month ==2 )) {
+        if (day > 0 && day <= 29) {
+            console.log ("thang"+ month + " co 29 day")
+            alert ("day: "+ day + "/" +month + "/" + year + " hop le")
+        }
+    }
+    if  (year%400 !=0 && month ==2 ) {
+        if (day > 0 && day <= 28) {
+        console.log ("thang"+ month + " co 28 day")
+        alert ("day: "+ day + "/" +month + "/" + year + " hop le")
+        }
+    }
 }
+}
+}
+}
+}
+
+
+
+//kt nam 
+
+// if (year%400 ==0 || (year%4==0 && year % 100 !=0 )) {
+//     alert ("nam nhuan")
+// } else {
+//     alert ("nam khong nhuan")
+// }
+
+//  kt motmonth co bao nhiu day
+    // if (month <=7  && month !=2) {
+    //     if (month%2!=0) {
+    //             console.log ("thang"+ month + " co 31 day")
+    //     } else if (month %2 ==0) {
+    //         console.log ("thang"+ month +" co 30 day")
+    //     }
+    // }
+    // if (month >=8) {
+    //     if (month%2==0) {
+    //         console.log ("thang"+ month + " co 31 day") 
+    //     }
+    //      else if (month%2 !=0) {
+    //         console.log ("thang"+ month + " co 30 day") 
+    //     }
+    // }
+    // if (year%400 ==0 || (year%4==0 && year % 100 !=0 && month ==2 )) {
+    //     console.log ("thang"+ month + " co 29 day")
+    // } else if  (year%400 !=0 && month ==2 ) {
+    //     console.log ("thang"+ month + " co 28 day")
+    // }
