@@ -10,7 +10,7 @@
 
 }
 
-html, body{
+html, body{     
     font-family: 'Roboto', sans-serif;
 }
 * {
@@ -21,7 +21,7 @@ html, body{
 
 .nav-menu li{
     display: inline;
-    margin-left: 18 px;
+    margin-left: 18px;
     margin-right: 18px;
 }
 
@@ -44,8 +44,8 @@ html, body{
 
 .sigup-top {
     text-align: center;
-    margin-top: 73px;
-    padding-bottom: 40px;
+    margin-top: 110px;
+    padding-bottom: 40 px;
 }
 .sigup-top h1 {
     margin-bottom: 8px;
@@ -89,50 +89,53 @@ html, body{
     color: #fff;
 }
 
-.footer{
+.foot{
     background-color: #4f4f4f;
-    padding: 24px 89.33px 16px 80px;
+    padding: 24px 90px 16px 90px;
+    margin: 10px;
+    width: auto;
+    margin-top: 50px;
 }
-.footer .part1{
+.foot .part1{
     display:flex;
     justify-content: space-between;
 }
 
-.footer .part2 h5{
+.foot .part2 h5{
     font-size: 14px;
     line-height: 16.8px;
     color: #f2f2f2;
-    padding-bottom: 4px;
+    padding-bottom: 8px;
 }
-.footer .part2 ul li{
+.foot .part2 ul li{
     font-size: 14px;
     line-height: 16.8px;
     list-style: none;
     padding: 4px 0px;   
 }
-.footer .part2 ul li a{
+.foot .part2 ul li a{
 text-decoration: none;
 color: #bdbdbd
 }
-.footer .logofooter{
+.foot .logofoot{
 display: flex;
 flex-direction: column ;
 align-items: center;
 color: #828282
 }
 
-.footer .part1 .logofooter{
+.foot .part1 .logofoot{
     margin-left: 178px;
     margin-right:0px
 }
-.footer .part1 .logofooter{
+.foot .part1 .logofoot{
     margin-right:150px;
 }
-.footer .part1 .social li{
+.foot .part1 .social li{
     display:inline;
     padding:20px;
 }
-.footer .end{
+.foot .end{
     color:#bdbdbd;
     margin-top:103px
 }

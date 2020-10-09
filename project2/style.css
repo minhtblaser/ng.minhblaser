@@ -1,0 +1,117 @@
+
+
+#counter-encounter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.counter-champion{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.encounter-champion{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    background-color: lightcoral;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.progress {
+    height: 20px;
+    width: 100px;
+}
+/* BYMINH */
+.top {
+    position: relative;
+    bottom: 900px;
+    left: 350px;
+    border-radius: 360px;
+    
+}
+
+#btn-top:hover {
+   transform: scale(1.5);
+   background-color: tomato;
+}
+
+.mid {
+    position: relative;
+    bottom: 600px;
+    left: 750px;
+}
+#btn-mid:hover {
+    transform: scale(1.5);
+    background-color: yellow;
+}
+
+.jungle {
+    position: relative;
+    bottom: 750px;
+    left: 370px;
+}
+
+#btn-jungle:hover {
+    transform: scale(1.5);
+    background-color: yellowgreen;
+}
+
+
+.ad {
+    position: relative;
+    bottom: 280px;
+    left: 1100px;
+}
+#btn-ad:hover {
+    transform: scale(1.5);
+    background-color: red;
+}
+
+.support {
+    position: relative;
+    bottom: 270px;
+    left: 1095px;
+}
+
+#btn-sp:hover {
+  transform: scale(1.5);
+  background-color: teal;
+}
+
+
+#body2 {
+    overflow: hidden;
+    /* height: 3000px; */
+
+}
+
+
+#mapImg {  
+        display: block;
+        width: 100%;
+        height: auto;
+        
+}
+
+#map1 {
+    display: flex;
+    justify-content: center;
+    
+}
+#map123:hover {
+    transform: scale(1.5);
+    background-color: wheat;
+}
+
+
+#mapImg {
+    opacity: 100%;
+}
