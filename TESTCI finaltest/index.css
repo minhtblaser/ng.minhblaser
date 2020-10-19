@@ -64,3 +64,18 @@ html, body{
     justify-content: center;
 }
 
+
+.in-the-box  .input {
+    display: flex;
+    justify-content:  space-around;
+}
+
+.typeoftext {
+    width: 50%;
+}
+
+.btn-oftext {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: -90px ;
+}

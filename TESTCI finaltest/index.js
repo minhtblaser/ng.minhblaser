@@ -25,7 +25,7 @@
 
 // bt2
 // B
-let result = document.getElementById("result1")
+let result = document.getElementById("result1");
 let random = Math.floor (Math.random() * 11);
 let number = document.getElementById ("input1");
 let count = 0;
@@ -33,6 +33,7 @@ let button= document.getElementById ("result");
     button.addEventListener('click', function (){
         let inputNumber = Number(number.value);
         console.log(inputNumber);
+        console.log(random);
     if (inputNumber != random && inputNumber < 11 &&inputNumber > 0) {
         count ++
         result.innerHTML= `good luck next time, this is first chance, try again  `
@@ -49,9 +50,13 @@ let button= document.getElementById ("result");
     if (count == 3) {
         result.innerHTML= "you lose, see you next time"
     }
+    
     if (count > 3) {
         count = 0;
+        random = Math.floor (Math.random() * 11);
+        console.log("re-render")
+        console.log(random)
     }
 })
-console.log(random)
+// console.log(random);
 
