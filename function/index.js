@@ -53,41 +53,41 @@
 
 
 //bt1
-let my_flock = [5,7,300,90,24,50,75]
-function myFlock (flock) {
-    let result= " "
-    for (let i =0; i <  flock.length; i ++) {
-        result = result + flock[i] + " "
-}
-console.log("my flock is: " + result);
-}
-// myFlock (my_flock);
+// let my_flock = [5,7,300,90,24,50,75]
+// function myFlock (flock) {
+//     let result= " "
+//     for (let i =0; i <  flock.length; i ++) {
+//         result = result + flock[i] + " "
+// }
+// console.log("my flock is: " + result);
+// }
+// // myFlock (my_flock);
 
-Array.prototype.max = function max() {
-    return Math.max.apply(null, this);
-  };
-// console.log ("my biggest sheep is: " + my_flock.max());
+// Array.prototype.max = function max() {
+//     return Math.max.apply(null, this);
+//   };
+// // console.log ("my biggest sheep is: " + my_flock.max());
 
 
-function afterOneMonth (flock1) {
-    let result1= " ";
-    for ( let i = 0; i < flock1.length; i++) {
-    flock1[i] +=50;
-    result1= result1 + flock1[i] + " ";
-}
-console.log ("after a month, this is my flock: " + result1)
-}
-// afterOneMonth (my_flock);
+// function afterOneMonth (flock1) {
+//     let result1= " ";
+//     for ( let i = 0; i < flock1.length; i++) {
+//     flock1[i] +=50;
+//     result1= result1 + flock1[i] + " ";
+// }
+// console.log ("after a month, this is my flock: " + result1)
+// }
+// // afterOneMonth (my_flock);
 
-function increase_kg(kg)
-{
-for(_num in my_flock)
-{
-    my_flock[_num]= my_flock[_num] + kg;
-}
-console.log("One month has, passed, my sheeps have grown, here are there sizes")
-console.log(...my_flock);
-}
+// function increase_kg(kg)
+// {
+// for(_num in my_flock)
+// {
+//     my_flock[_num]= my_flock[_num] + kg;
+// }
+// console.log("One month has, passed, my sheeps have grown, here are there sizes")
+// console.log(...my_flock);
+// }
 // console.log("\nMONTH 1");
 // increase_kg(50);
 
@@ -97,41 +97,58 @@ console.log(...my_flock);
 // console.log("\nMONTH 3");
 // increase_kg(50);
 
-function main () {
-    // console.log("my flock is: " + result);
-    myFlock (my_flock);
+// function main () {
+//     // console.log("my flock is: " + result);
+//     myFlock (my_flock);
 
-    // max();
-    console.log ("my biggest sheep is: " + my_flock.max());
+//     // max();
+//     console.log ("my biggest sheep is: " + my_flock.max());
 
-    // console.log ("after a month, this is my flock: " + result1)
-    afterOneMonth (my_flock);
+//     // console.log ("after a month, this is my flock: " + result1)
+//     afterOneMonth (my_flock);
 
-    console.log("\nMONTH 1");
-    increase_kg(50);
+//     console.log("\nMONTH 1");
+//     increase_kg(50);
 
-    console.log("\nMONTH 2");
-    increase_kg (50);
+//     console.log("\nMONTH 2");
+//     increase_kg (50);
 
-    console.log("\nMONTH 3");
-    increase_kg(50);
-}
-    main ();
+//     console.log("\nMONTH 3");
+//     increase_kg(50);
+// }
+//     main ();
 
 
-//bt2
-function find_longest_word(str)
-{
-  var array1 = str.match(/\w[a-z]{0,}/gi);
-  var result = array1[0];
+// //bt2
+// function find_longest_word(str)
+// {
+//   var array1 = str.match(/\w[a-z]{0,}/gi);
+//   var result = array1[0];
 
-  for(var x = 1 ; x < array1.length ; x++)
-  {
-    if(result.length < array1[x].length)
-    {
-    result = array1[x];
-    } 
-  }
-  return result;
-}
-console.log(find_longest_word('Web Development Tutorial'));
+//   for(var x = 1 ; x < array1.length ; x++)
+//   {
+//     if(result.length < array1[x].length)
+//     {
+//     result = array1[x];
+//     } 
+//   }
+//   return result;
+// }
+// console.log(find_longest_word('Web Development Tutorial'));
+
+  // let myFlock = [5 , 7, 300 , 30 , 24 , 50 , 75]
+  // let bigSize = 0;
+  //     for (let i=0; i < myFlock.length; i++) {
+  //         if (bigSize < myFlock[i])
+  //             bigSize = myFlock[i]
+  //             }
+  //     myFlock[myFlock.indexOf(bigSize)]=8
+  //     let b = myFlock.indexOf(bigSize)
+  //     console.log (b)
+  //     console.log (myFlock)
+  //     // result1 = 0;
+  //     // for (let i =0; i<myFlock.length; i++) {
+  //     //     result1 = result1 + myFlock[i] + " "
+  //     // }
+  //     // alert("after shearing, here is my flock \n" + result1)
+ 

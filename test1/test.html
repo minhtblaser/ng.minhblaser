@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lucky Numbers</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <script src = "test1.js"> </script>
+    <div>
+        <h1>Lucky Numbers</h1>
+    </div>
+    <ul class="luckyNumbersPosition">
+        <li class="luckyNumber"></li>
+        <li class="luckyNumber"></li>
+        <li class="luckyNumber"></li>
+        <li class="luckyNumber"></li>
+        <li class="luckyNumber"></li>
+    </ul>
+    <div class="playerLuckyNumber">
+        <div class="playerNumber">
+            <p id="playerNumber"></p>
+        </div>
+    </div>
+    <div id="buttonParent">
+        <button id="spinButton" onClick="handler.spinButton()">Spin !!</button>
+    </div>
+    <div id="luckyNumberMessage">
+        <p id="congrantsMessagePosition"></p>
+    </div>
+    <script src="index.js"></script>
 </body>
+
 </html>
